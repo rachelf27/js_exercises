@@ -1,0 +1,29 @@
+{
+    "name": "js_exercises",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha function_tests.js"
+    },
+    "dependencies": {
+        "mocha": "^4.1.0",
+        "chai": "^4.1.2",
+        "config": "^1.27.0",
+        "chai-as-promised": "^7.1.1"
+    },
+    "devDependencies": {
+        "chai-almost": "^1.0.1",
+        "dateformat": "^3.0.2",
+        "faker": "^4.1.0"
+    },
+    "engines": {
+        "node": ">=8.7.0"
+    },
+    "author": "Rachel Fernando",
+    "email": "rachelfernando27@gmail.com",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rachelf27/js_exercises.git"
+    }
+}
