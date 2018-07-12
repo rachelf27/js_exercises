@@ -1,7 +1,7 @@
 {
     "name": "js_exercises",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "functions.js",
     "scripts": {
         "test": "mocha function_tests.js"
     },

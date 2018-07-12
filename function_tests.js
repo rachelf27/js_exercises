@@ -92,5 +92,3 @@ describe('Home Page Front End', function () {
     expect(functions.countVowels("blatahayuq aeiou")).to.equal(9);
   });
 });
-
-

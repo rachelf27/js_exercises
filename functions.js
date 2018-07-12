@@ -1,8 +1,6 @@
 'use strict';
 
-
 module.exports = {
-
     formatDate_1(userDate) {
         var userDate = userDate.split('/').reverse().join('')
         return userDate;
@@ -100,5 +98,4 @@ module.exports = {
         console.log(count);
         return count;
     }
-
 }
