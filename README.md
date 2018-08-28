@@ -11,4 +11,4 @@ For more information on all the dependencies used see `package.json`.
 * `npm install` 
   
 ## Running Tests
-`npm run test`
+`npm run test-1`

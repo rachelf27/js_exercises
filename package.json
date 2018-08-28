@@ -3,7 +3,9 @@
     "version": "1.0.0",
     "main": "functions.js",
     "scripts": {
-        "test": "mocha function_tests.js"
+        "test-1": "mocha function_tests.js",
+        "test-2": "mocha colorsArrays.js",
+        "test-3": "node mergeArrays.js"
     },
     "dependencies": {
         "mocha": "^4.1.0",
