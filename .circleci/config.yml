@@ -23,8 +23,8 @@ jobs:
           key: dependency-cache-{{ checksum "package.json" }}
 
       - run: 
-        name: npm install
-        command: npm install
+          name: npm install
+          command: npm install
       
       - save_cache:
           key: dependency-cache-{{ checksum "package.json" }}
@@ -32,16 +32,16 @@ jobs:
             - ./node_modules
         
       - run:
-        name: first test
-        command: npm run test-1
+          name: first test
+          command: npm run test-1
 
       - run:
-        name: second test
-        command: npm run test-2
+          name: second test
+          command: npm run test-2
 
       - run:
-        name: third test
-        command: npm run test-3
+          name: third test
+          command: npm run test-3
 
       - store_test_results:
           path: test-results.xml
