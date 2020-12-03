@@ -1,6 +1,6 @@
 # JavaScript Exercises
-This project has JavaScript Exercises  
-For more information on all the dependencies used see `package.json`.
+This project includes several JavaScript Exercises  
+For more information on all the dependencies review `package.json`.
 
 ## Installation
 
