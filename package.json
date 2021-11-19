@@ -5,13 +5,20 @@
     "scripts": {
         "test-1": "mocha function_tests.js",
         "test-2": "mocha colorsArrays.js",
-        "test-3": "node mergeArrays.js"
+        "test-3": "node mergeArrays.js",
+        "test-4": "node palindrome.js",
+        "test-5": "mocha apiRequests/getReq_Tests.js",
+        "test-6": "mocha apiRequests/postReq_Tests.js",
+        "test-7": "mocha apiRequests/putReq_Tests.js",
+        "test-8": "mocha apiRequests/delReq_Tests.js"
+
     },
     "dependencies": {
-        "mocha": "^4.1.0",
+        "axios": "^0.24.0",
         "chai": "^4.1.2",
+        "chai-as-promised": "^7.1.1",
         "config": "^1.27.0",
-        "chai-as-promised": "^7.1.1"
+        "mocha": "^9.1.3"
     },
     "devDependencies": {
         "chai-almost": "^1.0.1",
