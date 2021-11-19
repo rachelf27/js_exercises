@@ -23,7 +23,7 @@ jobs:
           command: 'sudo npm install'
       - run: # run tests
           name: test
-          command: npm run test-1
+          command: npm run test-8
 
 
 
